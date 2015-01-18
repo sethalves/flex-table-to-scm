@@ -32,4 +32,7 @@ install: flex-table-to-scm
 	cp $^ /usr/local/bin/flex-table-to-scm
 
 clean:
-	rm -rf seth snow srfi seth-tests srfi-tests *~
+	rm -rf *~ flex-table-to-scm
+
+very-clean: clean
+	rm -rf seth snow srfi seth-tests srfi-tests
