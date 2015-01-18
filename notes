@@ -1,0 +1,7 @@
+
+flex --tables-file=hi snazzle.l
+
+
+http://wiki.call-cc.org/eggref/4/silex
+
+http://flex.sourceforge.net/manual/Patterns.html#Patterns
